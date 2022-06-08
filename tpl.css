@@ -1,0 +1,305 @@
+.container {
+	margin: auto;
+	max-width: 1100px;
+    letter-spacing: .45px;
+}
+.topSection {
+	min-height: 500px;
+	display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+}
+.infoBlock {
+	position: relative;
+    flex: 0 0 66.666666666%;
+    flex-direction: column;
+    display: flex;
+}
+.summary {
+	border-top-left-radius: 14px;
+	background-color: #f7f7f7;
+	display: block;
+	min-height: 300px;
+	padding: 20px 60px;
+	font-size: 13px;
+}
+.adjectives {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 80%;
+	letter-spacing: 1px;
+	border-bottom: 1px solid lightgrey;
+    line-height: 30px;
+	font-family: "Trirong", sans-serif;
+}
+.palette {
+	display: grid;
+	grid-auto-flow: column;
+	justify-content: space-between;
+    width: 200px;
+    float: right;
+    position: relative;
+    bottom: -10px;
+}
+
+.color1, .color2, .color3, .color4, .color5, .color6 {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	display: inline-block;
+}
+.color1 {
+	background-color: #c9abe4;
+}
+.color2 {
+	background-color: #ce5656;
+}
+.color3 {
+	background-color: #febf63;
+}
+.color4 {
+	background-color: #613e45;
+}
+.color5 {
+	background-color: #c9efe8;
+}
+.color6 {
+	background-color: #464954;
+}
+.likeDislike {
+	background-color: #f7f7f7;
+	margin-top: 15px;
+	flex: 1 1 auto;
+	display: inline-flex;
+	line-height: 22px;
+	text-align: center;
+}
+.likeDislike ul {
+	list-style-type: none;
+}
+.likes {
+	text-align: right;
+	padding: 36px;
+    width: 48%;
+}
+.fullHeartIcon svg, .brokenHeartIcon svg {
+	opacity: 0.2;
+	width: 45px;
+}
+.fullHeartIcon, .brokenHeartIcon {
+	position: absolute;
+    margin-top: -20px;
+}
+.fullHeartIcon {
+	left: 20px;
+}
+.brokenHeartIcon {
+	right: 20px;
+}
+.dislikes {
+    width: 48%;
+    padding: 36px;
+    padding-left: 0;
+	text-align: left;
+}
+.vl {
+	border-left: 1px solid lightgray;
+    height: 150px;
+    transform: translateY(30%);
+    left: 50%;
+}
+.characterSpace {
+	background-color: #f7f7f7;
+	position: relative;
+    flex: 0 0 30%;
+    margin-left: 15px;
+    border-top-right-radius: 14px;
+}
+.photoSection {
+	border-radius: 50%;
+    width: 240px;
+    height: 240px;
+    position: absolute;
+  	left: 48%;
+  	transform: translate(-50%, 0);
+    top: 50px;
+	background-color: white;
+}
+.charPhoto {
+    border-radius: 50%;
+    height: inherit;
+}
+.redBanner {
+	background-color: #FF6969;
+	width: 100%;
+	height: 150px;
+	border-top-right-radius: 14px;
+}
+.characterInfo {
+	transform: translateY(175px);
+	display: flex;
+    flex-wrap: wrap;
+    max-width: 260px;
+	margin-left: 5px;
+}
+.colTopic {
+	text-align: end;
+	padding-left: 5px;
+	font-size: 11px;
+	margin-top: 3px;
+	max-width: 100px;
+	font-weight: 400;
+}
+.colCustom {
+	padding-left: 5px;
+	text-align: start;
+	margin-bottom: 5px;
+}
+
+.pokeballDivider, .pokeballIcon {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.pokeballIcon {
+	padding: 12px;
+	display: block;
+	height: 55px;
+}
+
+.upperMiddleSection {
+
+}
+.pkmnTeamSection {
+	background-color: #f7f7f7;
+	min-height: 95px;
+}
+.pkmnTeam {
+	display: inline-flex;
+	justify-content: center;
+    width: 100%;
+}
+.pkmn {
+	padding: 10px;
+	cursor: pointer;
+}
+.gender{
+	text-align: center;
+	margin: 0;
+}
+.tooltip-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  margin-left: -20px;
+  margin-top: -92px;
+  width: 100px;
+  text-align: center;
+  z-index: 2;
+  font-size: 11px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  opacity: 0.8;
+}
+.pkmn:hover .tooltip-content {
+  display: block;
+}
+.storyContainer {
+	margin-top: 15px;
+	min-height: 560px;
+	display: flex;
+}
+.characterFullBody {
+	position: relative;
+    flex: 0 0 20%;
+    margin-right: 15px;
+}
+.storyBlock {
+	position: relative;
+    flex-direction: column;
+    display: flex;
+    background-color: #f7f7f7;
+    width: 100%;
+    max-height: 620px;
+}
+.storyTitle, .guardianTitle {
+	text-align: right;
+	text-transform: uppercase;
+	font-size: 80%;
+	letter-spacing: 2px;
+	border-bottom: 1px solid lightgrey;
+    line-height: 40px;
+	margin-right: 30px;
+	font-family: "Trirong", sans-serif;
+}
+.scrollableTextContent {
+	overflow: scroll;
+    padding: 0 30px;
+    font-size: 13px;
+}
+.lowerMiddleSection {
+	display: inline-flex;
+    margin-top: 40px;
+}
+.trivia {
+	background-color: #f7f7f7;
+	max-height: 200px;
+	min-height: 100px;
+	font-size: 12px;
+	padding: 30px;
+	position: relative;
+    flex: 0 0 40%;
+}
+.trivia svg {
+	opacity: 0.2;
+	width: 35px;
+	left: 48%;
+    position: absolute;
+    margin-top: -50px;
+}
+.guardian {
+	margin-left: 15px;
+	background-color: #f7f7f7;
+	display: grid;
+	font-size: 12px;
+	max-height: 260px;
+	min-height: 100px;
+}
+.guardian img  {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.guardianText {
+	padding:  0 30px;
+	overflow: scroll;
+}
+.quote {
+	background-color: #f7f7f7;
+	margin-top: 15px;
+	min-height: 60px;
+	text-align: center;
+	line-height: 60px;
+	border-bottom-left-radius: 14px;
+	border-bottom-right-radius: 14px;
+}
+.friendsSection {
+	height: 130px;
+	margin: 50px 0;
+	display: inline-flex;
+}
+.friend {
+	background-color: #f7f7f7;
+	border-radius: 50%;
+    width: 130px;
+    height: 130px;
+}
+/* Rewrite native css properties */
+span {
+	flex: 0 0 50%;
+	max-width: 48%;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 100;
+}
