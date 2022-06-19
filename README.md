@@ -105,3 +105,15 @@ devient pour Germignon femelle non shiny:
         <p>Germignonne</p>
    </div> 
 ```  
+si le Pokémon est shiny l'URL passe de:
+
+```
+<img src="https://raw.githubusercontent.com/msikma/pokesprite/master/pokemon-gen8/regular/zorua.png" border="0">
+```  
+
+![](https://raw.githubusercontent.com/msikma/pokesprite/master/pokemon-gen8/regular/zorua.png)
+à
+```
+<img src="https://raw.githubusercontent.com/msikma/pokesprite/master/pokemon-gen8/shiny/zorua.png" border="0">
+```  
+![](https://raw.githubusercontent.com/msikma/pokesprite/master/pokemon-gen8/shiny/zorua.png)
