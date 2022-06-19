@@ -38,7 +38,7 @@ demo:
 
 https://user-images.githubusercontent.com/3582779/174463609-8d571e24-696c-4677-af21-afa54a0ff1ed.mov
 
-
+------------------------------------------
 
 2. **Les paragraphes**
 
@@ -73,3 +73,31 @@ Intégrer une image:
 ```
 <img src="https://une-image.com/image-jolie.jpg" />
 ```
+
+------------------------------------------
+
+3. **Les Pokémon**
+
+Les icones de Pokémon sont dispo ici -> https://msikma.github.io/pokesprite/overview/dex-gen8.html, il suffit de faire un clique droit et copier l'adresse URL de l'icone (ou alors l'enregistrer et re-héberger soi-même (sur https://imgbb.com/ par exemple)
+
+```
+<!-- Pokemon image -->
+    					<img src="https://raw.githubusercontent.com/msikma/pokesprite/master/pokemon-gen8/regular/bulbasaur.png" border="0">
+    					<!-- Pokemon gender -->
+    					<p class="gender">[♀ / ♂ + ✧]</p> 
+    					<!-- Pokemon name -->
+    				  	<div class="tooltip-content">
+    				    	<p>[PKMN NAME]</p>
+    				  	</div> 
+```  
+devient pour Germignon femelle non shiny:
+```
+<!-- Pokemon image -->
+    					<img src="https://raw.githubusercontent.com/msikma/pokesprite/master/pokemon-gen8/regular/chikorita.png" border="0">
+    					<!-- Pokemon gender -->
+    					<p class="gender">♀</p> 
+    					<!-- Pokemon name -->
+    				  	<div class="tooltip-content">
+    				    	<p>Germignonne</p>
+    				  	</div> 
+```  
