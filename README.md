@@ -105,7 +105,7 @@ devient pour Germignon femelle non shiny:
         <p>Germignonne</p>
    </div> 
 ```  
-si le Pokémon est shiny l'URL passe de /regular/nom-du-pkmn à /shiny/nom-du-pkmn:
+si le Pokémon est shiny l'URL passe de `/regular/nom-du-pkmn` à `/shiny/nom-du-pkmn`:
 
 ```
 <img src="https://raw.githubusercontent.com/msikma/pokesprite/master/pokemon-gen8/regular/espeon.png" border="0">
