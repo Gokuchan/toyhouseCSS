@@ -135,3 +135,6 @@ Pour les Pokémon régionaux `/regular/pkmn-region`, si shiny `/shiny/pkmn-regio
 <img src="https://raw.githubusercontent.com/msikma/pokesprite/master/pokemon-gen8/shiny/zorua-hisui.png" border="0">
 ```  
 ![](https://raw.githubusercontent.com/msikma/pokesprite/master/pokemon-gen8/shiny/zorua-hisui.png)
+
+
+Cette base de données de malade a aussi tous les sprites de tous les objets de tous les jeux existants: https://msikma.github.io/pokesprite/overview/inventory.html (si jamais vous voulez utiliser dans l'espace "Gardiens" (Goku a la plume de Lugia, mais Hika tu peux utiliser la Gracidée, Bibi, ce charm ressemble a un bijou d'aura: ![](https://raw.githubusercontent.com/msikma/pokesprite/master/items/key-item/shiny-charm.png)
