@@ -78,26 +78,30 @@ Intégrer une image:
 
 3. **Les Pokémon**
 
-Les icones de Pokémon sont dispo ici -> https://msikma.github.io/pokesprite/overview/dex-gen8.html, il suffit de faire un clique droit et copier l'adresse URL de l'icone (ou alors l'enregistrer et re-héberger soi-même (sur https://imgbb.com/ par exemple)
+Les icones de Pokémon sont dispo ici -> https://msikma.github.io/pokesprite/overview/dex-gen8.html
+
+Si vous connaissez le nom anglais du Pokémon vous pouvez simplement remplacer le text dans l'URL
+
+demo:
 
 ```
 <!-- Pokemon image -->
-    					<img src="https://raw.githubusercontent.com/msikma/pokesprite/master/pokemon-gen8/regular/bulbasaur.png" border="0">
-    					<!-- Pokemon gender -->
-    					<p class="gender">[♀ / ♂ + ✧]</p> 
-    					<!-- Pokemon name -->
-    				  	<div class="tooltip-content">
-    				    	<p>[PKMN NAME]</p>
-    				  	</div> 
+   <img src="https://raw.githubusercontent.com/msikma/pokesprite/master/pokemon-gen8/regular/bulbasaur.png" border="0">
+   <!-- Pokemon gender -->
+   <p class="gender">[♀ / ♂ + ✧]</p> 
+   <!-- Pokemon name -->
+   <div class="tooltip-content">
+        <p>[PKMN NAME]</p>
+   </div> 
 ```  
 devient pour Germignon femelle non shiny:
 ```
 <!-- Pokemon image -->
-    					<img src="https://raw.githubusercontent.com/msikma/pokesprite/master/pokemon-gen8/regular/chikorita.png" border="0">
-    					<!-- Pokemon gender -->
-    					<p class="gender">♀</p> 
-    					<!-- Pokemon name -->
-    				  	<div class="tooltip-content">
-    				    	<p>Germignonne</p>
-    				  	</div> 
+   <img src="https://raw.githubusercontent.com/msikma/pokesprite/master/pokemon-gen8/regular/chikorita.png" border="0">
+   <!-- Pokemon gender -->
+   <p class="gender">♀</p> 
+   <!-- Pokemon name -->
+   <div class="tooltip-content">
+        <p>Germignonne</p>
+   </div> 
 ```  
