@@ -105,7 +105,7 @@ devient pour Germignon femelle non shiny:
         <p>Germignonne</p>
    </div> 
 ```  
-si le Pokémon est shiny l'URL passe de `/regular/nom-du-pkmn` à `/shiny/nom-du-pkmn`:
+si le Pokémon est shiny la fin de l'URL passe de `/regular/nom-du-pkmn` à `/shiny/nom-du-pkmn`:
 
 ```
 <img src="https://raw.githubusercontent.com/msikma/pokesprite/master/pokemon-gen8/regular/espeon.png" border="0">
@@ -117,3 +117,17 @@ si le Pokémon est shiny l'URL passe de `/regular/nom-du-pkmn` à `/shiny/nom-du
 <img src="https://raw.githubusercontent.com/msikma/pokesprite/master/pokemon-gen8/shiny/espeon.png" border="0">
 ```  
 ![](https://raw.githubusercontent.com/msikma/pokesprite/master/pokemon-gen8/shiny/espeon.png)
+
+Pour les Pokémon régionaux `/regular/pkmn-region`, si shiny `/shiny/pkmn-region`:
+
+
+```
+<img src="https://raw.githubusercontent.com/msikma/pokesprite/master/pokemon-gen8/regular/vulpix.png" border="0">
+```  
+
+![](https://raw.githubusercontent.com/msikma/pokesprite/master/pokemon-gen8/regular/vulpix.png)
+
+```
+<img src="https://raw.githubusercontent.com/msikma/pokesprite/master/pokemon-gen8/regular/vulpix-alola.png" border="0">
+```  
+![](https://raw.githubusercontent.com/msikma/pokesprite/master/pokemon-gen8/regular/vulpix-alola.png)
