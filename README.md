@@ -122,12 +122,16 @@ Pour les Pokémon régionaux `/regular/pkmn-region`, si shiny `/shiny/pkmn-regio
 
 
 ```
-<img src="https://raw.githubusercontent.com/msikma/pokesprite/master/pokemon-gen8/regular/vulpix.png" border="0">
+<img src="https://raw.githubusercontent.com/msikma/pokesprite/master/pokemon-gen8/regular/zorua.png" border="0">
 ```  
 
-![](https://raw.githubusercontent.com/msikma/pokesprite/master/pokemon-gen8/regular/vulpix.png)
+![](https://raw.githubusercontent.com/msikma/pokesprite/master/pokemon-gen8/regular/zorua.png)
 
 ```
-<img src="https://raw.githubusercontent.com/msikma/pokesprite/master/pokemon-gen8/regular/vulpix-alola.png" border="0">
+<img src="https://raw.githubusercontent.com/msikma/pokesprite/master/pokemon-gen8/regular/zorua-hisui.png" border="0">
 ```  
-![](https://raw.githubusercontent.com/msikma/pokesprite/master/pokemon-gen8/regular/vulpix-alola.png)
+![](https://raw.githubusercontent.com/msikma/pokesprite/master/pokemon-gen8/regular/zorua-alola.png)
+```
+<img src="https://raw.githubusercontent.com/msikma/pokesprite/master/pokemon-gen8/shiny/zorua-hisui.png" border="0">
+```  
+![](https://raw.githubusercontent.com/msikma/pokesprite/master/pokemon-gen8/shiny/zorua-hisui.png)
