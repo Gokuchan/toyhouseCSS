@@ -15,7 +15,7 @@ https://user-images.githubusercontent.com/3582779/174462336-5d61a2c6-12af-4ba0-b
 
 https://user-images.githubusercontent.com/3582779/174462681-ce482d34-e594-45c7-9741-6b89d49d29d8.mov
 
-Le code est maintenant formaté et coloré, ce qui va rendre l’édition du template plus simple que le bloc informe qui était là auparavant (c'est le WYSIWYG qui etait enable qui causait ça et c'est pourquoi on l'a disable
+Le code est maintenant formaté, coloré et les lignes numéroté, ce qui va rendre l’édition du template plus simple que le bloc informe qui était là auparavant (c'est le WYSIWYG qui etait enable qui causait ça et c'est pourquoi on l'a disable
 
 4. Editer le template en remplaçant le texte [EN MAJUSCULE ENTRE CROCHET UN PEU PARTOUT]
 
@@ -33,6 +33,10 @@ Pour voir votre progrès sur le template sans avoir à attendre de tout finir po
 Quand vous voulez voir vos changements, sauvegardez votre avancement et rafraîchissez l'onglet de la fiche perso.
 
 demo:
+
+
+
+https://user-images.githubusercontent.com/3582779/174463609-8d571e24-696c-4677-af21-afa54a0ff1ed.mov
 
 
 
