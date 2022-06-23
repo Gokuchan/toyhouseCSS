@@ -5,13 +5,13 @@ Tuto pour utiliser le template!
 
 2.a. **⚠️IMPORTANT⚠️** sur Toyhouse dans "Edit Character" il faut **DESABLE WYSIWYG**.. et ne **jamais** le reactiver !
 
-2.b. **⚠️IMPORTANT⚠️** Copier/Coller (dans un doc word ou quoi) le contenu (le texte surtout) de vos fiches actuelles avant de passer au nouveau template piur ne pas perdre ce que vous avez écrit dans le passé et pour transposer ensuite.
-
 demo:
 
 https://user-images.githubusercontent.com/3582779/174462336-5d61a2c6-12af-4ba0-bc10-a8df372828ec.mov
 
 *❔Pourquoi? Malheureusement, malgré l'aspect pratique du mode WYSIWYG (what you see is what you get), le nom est en fait un mensonge partiel car ce que vous voyiez n'est pas exactement ce que vous aurez :( le code est altéré et certains éléments se "cassent" mais pas de panique... au contraire ça sera plus simple ainsi d’éditer le code! je vous montre juste après ;)*
+
+2.b. **⚠️IMPORTANT⚠️** Copier/Coller (dans un doc word ou quoi) le contenu (le texte surtout) de vos fiches actuelles avant de passer au nouveau template piur ne pas perdre ce que vous avez écrit dans le passé et pour transposer ensuite.
 
 3. Supprimer le contenu dans la zone de texte et coller le code que vous avez copié:
 
