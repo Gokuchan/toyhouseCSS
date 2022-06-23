@@ -3,7 +3,9 @@ Tuto pour utiliser le template!
 
 1. Récupérer le code ici (copier / coller à l’étape 3): https://github.com/Gokuchan/toyhouseCSS/blob/main/tpl.html
 
-2. **⚠️IMPORTANT⚠️** sur Toyhouse dans "Edit Character" il faut **DESABLE WYSIWYG**.. et ne **jamais** le reactiver !
+2.a. **⚠️IMPORTANT⚠️** sur Toyhouse dans "Edit Character" il faut **DESABLE WYSIWYG**.. et ne **jamais** le reactiver !
+
+2.b. **⚠️IMPORTANT⚠️** Copier/Coller (dans un doc word ou quoi) le contenu (le texte surtout) de vos fiches actuelles avant de passer au nouveau template piur ne pas perdre ce que vous avez écrit dans le passé et pour transposer ensuite.
 
 demo:
 
