@@ -3,7 +3,7 @@ Tuto pour utiliser le template!
 
 1. Récupérer le code ici (copier / coller à l’étape 3): https://github.com/Gokuchan/toyhouseCSS/blob/main/tpl.html
 
-2. **⚠️IMPORTANT⚠️** sur Toyhouse dans "Edit Character" il faut **DESABLE WYSIWYG**.. et ne jamais le reactiver !
+2. **⚠️IMPORTANT⚠️** sur Toyhouse dans "Edit Character" il faut **DESABLE WYSIWYG**.. et ne **jamais** le reactiver !
 
 demo:
 
@@ -76,7 +76,7 @@ Intégrer une image:
 
 ------------------------------------------
 
-3. **Les Pokémon**
+4. **Les Pokémon**
 
 Les icones de Pokémon sont dispo ici -> https://msikma.github.io/pokesprite/overview/dex-gen8.html
 
@@ -138,3 +138,58 @@ Pour les Pokémon régionaux `/regular/pkmn-region`, si shiny `/shiny/pkmn-regio
 
 
 Cette base de données de malade a aussi tous les sprites de tous les objets de tous les jeux existants: https://msikma.github.io/pokesprite/overview/inventory.html (si jamais vous voulez utiliser dans l'espace "Gardiens" (Goku a la plume de Lugia, mais Hika tu peux utiliser la Gracidée ![](https://raw.githubusercontent.com/msikma/pokesprite/master/items/key-item/gracidea.png), Bibi, ce charm ressemble a un bijou d'aura: ![](https://raw.githubusercontent.com/msikma/pokesprite/master/items/key-item/shiny-charm.png) ou l'orbe adamant ![](https://raw.githubusercontent.com/msikma/pokesprite/master/items/hold-item/adamant-orb.png)
+
+
+------------------------------------------
+
+5. **La Pokéball "par défaut**
+
+<img width="210" alt="Screen Shot 2022-06-22 at 8 03 45 PM" src="https://user-images.githubusercontent.com/3582779/175198278-ef84b2ec-1bb1-405e-8cda-e3a37aa4a932.png">
+
+..ou l'avatar par défaut pour les persos qui n'ont pas de photo encore. Cette Pokéball est une image SVG, ça veut dire qu'elle esy générée par du code pour s'ajuster à n'importe quelle résolution (comme un vectoriel). Mais du coup pour l'utiliser il faut copier ce morceau de code:
+```
+ <div style="opacity:0.5;margin:auto;display:block;width:150px;">
+              <svg xmlns="http://www.w3.org/2000/svg"
+                width="150px" height="150px"
+                viewBox="0 0 1024 1024"
+                >
+                <path id="pkmn-go-teamless"
+                  fill="#000000" stroke="none" stroke-width="1"
+                  d="M 512.00,96.80
+                     C 304.28,96.94 132.17,249.33 101.24,448.41
+                       101.24,448.41 312.51,448.80 312.51,448.80
+                       339.50,364.37 418.60,303.25 512.00,303.20
+                       605.25,303.31 684.24,364.33 711.33,448.61
+                       711.33,448.61 922.53,448.80 922.53,448.80
+                       891.82,249.60 719.75,97.06 512.00,96.80
+                       512.00,96.80 512.00,96.80 512.00,96.80 Z
+                     M 512.00,376.80
+                     C 436.89,376.80 376.00,437.69 376.00,512.80
+                       376.00,587.91 436.89,648.80 512.00,648.80
+                       512.00,648.80 512.00,648.80 512.00,648.80
+                       587.11,648.80 648.00,587.91 648.00,512.80
+                       648.00,512.80 648.00,512.80 648.00,512.80
+                       648.00,437.69 587.11,376.80 512.00,376.80
+                       512.00,376.80 512.00,376.80 512.00,376.80
+                       512.00,376.80 512.00,376.80 512.00,376.80 Z
+                     M 101.47,576.80
+                     C 132.18,776.00 304.25,928.54 512.00,928.80
+                       719.72,928.66 891.83,776.27 922.76,577.19
+                       922.76,577.19 711.49,576.80 711.49,576.80
+                       684.50,661.23 605.40,722.35 512.00,722.40
+                       418.75,722.29 339.76,661.27 312.67,576.99
+                       312.67,576.99 101.47,576.80 101.47,576.80
+                       101.47,576.80 101.47,576.80 101.47,576.80 Z" />
+              </svg>
+            </div>
+```
+Ce morceau de code est aussi disponible dans le template dans la rubrique des relations, j'en ai mis un pour qu'il soit facile à recuperer.
+
+------------------------------------------
+
+6. **Les commentaires dans le code**
+
+Pour vous aiguiller à travers le code j'ai laissé des commentaires dans le code qui ressemble à ça :
+<img width="849" alt="Screen Shot 2022-06-22 at 8 09 04 PM" src="https://user-images.githubusercontent.com/3582779/175198876-2b4f32d9-df89-4976-aada-803e199f35e0.png">
+
+Le texte en vert entre `<---->`, ce texte ne s'affiche pas dans le rendu final du template et est seulement visible quand on édite.
