@@ -193,3 +193,6 @@ Pour vous aiguiller à travers le code j'ai laissé des commentaires dans le cod
 <img width="849" alt="Screen Shot 2022-06-22 at 8 09 04 PM" src="https://user-images.githubusercontent.com/3582779/175198876-2b4f32d9-df89-4976-aada-803e199f35e0.png">
 
 Le texte en vert entre `<---->`, ce texte ne s'affiche pas dans le rendu final du template et est seulement visible quand on édite.
+
+------------------------------------------
+Voilà , je pense avoir fait le tour de l'essentiel! Voici une vidéo Youtube qui peut aussi donner des astuces: https://www.youtube.com/watch?v=B-X57fmPuPo
